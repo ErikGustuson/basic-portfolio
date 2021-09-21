@@ -1,0 +1,36 @@
+:root {
+    --darkred: darkred;
+    --lightgray: lightgray;
+}
+
+.header {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px;
+    background-color: var(--darkred);
+    ba
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.header nav {
+    font-family: 'Courier New', Courier, monospace;
+    float: right;
+    font-size: 30px;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--lightgray);
+    font-weight: bold;
+}
