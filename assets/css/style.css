@@ -1,4 +1,4 @@
-:root {
+:root {   
     --darkred: darkred;
     --lightgray: lightgray;
 }
@@ -35,9 +35,8 @@
 }
 
 .trees {
-    height: 800px;
+    height: 900px;
     width: 100%;
-    margin-bottom: 25px;
     background-image: url("../images/tree-background.jpeg");
     background-size: cover;
     background-position: center;
@@ -82,7 +81,50 @@ p {
     border-radius: 20px 0 0 20px;
 }
 
+h3 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px;
+    background-color: var(--darkred);
+    font-size: 38px;
+    font-weight: bold;
+}
 
+/* .semantic {
+    position: relative;
+}
 
+.caption {
+    position: absolute;
+    font-size: 32px;
+    background-color: black;
+    padding: 20px;
+    color: var(--lightgray);
+}
 
+.semantic img {
+    opacity: 0.6;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 100px;
+}
+
+.work {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: 1 0 100px;
+}
+
+@media screen and (max-width: 768px) {
+    
+    }
+} */
+
+/* .semantic img:hover, 
+.working-1 img:hover, 
+.working-2 img:hover {
+    opacity: 1
+} */
 
