@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+  }
+
 :root {   
     --darkred: darkred;
     --lightgray: lightgray;
@@ -47,7 +51,9 @@
     top: 20px;
     border-radius: 50%;
     height: 30%;
+    min-height: 400px;
     width: 30%;
+    min-width: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -92,19 +98,28 @@ h3 {
 
 .work {
     display: flex;
-    justify-content: space-evenly;
-    padding: 20px;
-    margin: 20px;
+    justify-content: stretch;
+    flex-shrink: 1;
+}
+
+.working-1,
+.working-2, {
+    float: right;
+    width: 50%;
 }
 
 .semantic {
+    float: left;
+    width: 50%;
 }
 
 @media screen and (max-width: 768px) {
     .work {
-        flex-flow: column;
+        flex-direction: column;
     }
 }
+
+
 
 /* .semantic {
     position: relative;
