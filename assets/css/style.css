@@ -90,6 +90,22 @@ h3 {
     font-weight: bold;
 }
 
+.work {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 20px;
+}
+
+.semantic {
+}
+
+@media screen and (max-width: 768px) {
+    .work {
+        flex-flow: column;
+    }
+}
+
 /* .semantic {
     position: relative;
 }
@@ -110,17 +126,7 @@ h3 {
     flex: 1 1 100px;
 }
 
-.work {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    flex: 1 0 100px;
-}
 
-@media screen and (max-width: 768px) {
-    
-    }
-} */
 
 /* .semantic img:hover, 
 .working-1 img:hover, 
