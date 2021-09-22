@@ -39,7 +39,7 @@
 }
 
 .trees {
-    height: 900px;
+    height: 1000px;
     width: 100%;
     background-image: url("../images/tree-background.jpeg");
     background-size: cover;
@@ -97,32 +97,20 @@ h3 {
 }
 
 .work {
+    background-color: black;
     display: flex;
-    justify-content: stretch;
-    flex-shrink: 1;
+    flex-wrap: wrap;
+    flex: 0 1 200px;
 }
 
 .working-1,
 .working-2, {
-    float: right;
-    width: 50%;
+    display: flex;
 }
 
 .semantic {
-    float: left;
-    width: 50%;
-}
-
-@media screen and (max-width: 768px) {
-    .work {
-        flex-direction: column;
-    }
-}
-
-
-
-/* .semantic {
     position: relative;
+    flex: 0 1 200px;
 }
 
 .caption {
@@ -133,19 +121,41 @@ h3 {
     color: var(--lightgray);
 }
 
+@media screen and (max-width: 768px) {
+    .semantic, .working-1, .working-2, .work {
+        flex-direction: column;
+    }
+}
+
 .semantic img {
-    opacity: 0.6;
+    opacity: .6;
     float: left;
     display: flex;
     flex-wrap: wrap;
     flex: 1 1 100px;
 }
 
-
-
-/* .semantic img:hover, 
+.semantic img:hover, 
 .working-1 img:hover, 
 .working-2 img:hover {
     opacity: 1
-} */
+}
+
+.contact-me {
+    background-color: var(--lightgray);
+    color: var(--darkred);
+    padding: 30px;
+}
+
+.contact-me h4{
+    float: left;
+    font-size: 35px;
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: var(--darkred);
+    display: inline;
+    float: right;
+}
 
