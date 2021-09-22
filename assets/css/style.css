@@ -155,7 +155,15 @@ h3 {
 .links ul li a{
     text-decoration: none;
     color: var(--darkred);
-    display: inline;
+    display: inline-block;
     float: right;
+    font-size: 30px;
+    margin-left: 20px;
 }
 
+footer {
+    background-color: var(--darkred);
+    color: var(--lightgray);
+    text-align: center;
+    padding: 20px;
+}
